@@ -1,0 +1,25 @@
+<html>
+<head><title>checkboxes</title></head>
+<body>
+Checkbox : <input type="checkbox" id="mycheck" value="myvalue">
+<button onclick="myfun()">Try it!!</button>
+<p id="result"></p>
+<script>
+
+function myfun(){
+var x=document.getElementById("mycheck");
+if(x.checked==true){
+var ans=x.value;
+
+return document.getElementById("result").innerHTML=ans;
+
+}
+else
+x.checked=true;
+}
+
+
+</script>
+<script><h1>ans</h1></script>
+</body>
+</html>
